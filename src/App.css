@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.table-style {
+  background: #fbfbfb;
+}
+.table-style:nth-of-type(even) {
+  background: #ffffff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dashboardTop {
+  margin-top: 23px;
+}
+
+.isSideBarOpen {
+  margin: 0;
+  width: 100%;
+}
+
+.isSideBarClosed {
+  margin-left: 15%;
+  width: 100%;
+}
+
+.singleWarehouse {
+  width: 100%;
+}
+
+.businessDetails {
+  width: 100%;
+  margin-left: 0;
+}
+
+.assignedTrip {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .dashboardTop {
+    margin-top: 73px;
+  }
+
+  .isSideBarOpen {
+    margin-left: 15%;
+    width: 85%;
+  }
+
+  .isSideBarClosed {
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .singleWarehouse {
+    width: 65%;
+  }
+
+  .businessDetails {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  .assignedTrip {
+    width: 66%;
+  }
+}
+/* desktop */
+
+.menu-item-noTactive {
+  background-color: yellow;
+}
